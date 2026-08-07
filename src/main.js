@@ -46,6 +46,6 @@ lua.global.set("print", function(txt) {
 })
 lua.global.set("app", app)
 lua.global.set("alert", window.alert)
-lua.doString(
+/*lua.doString(
   'alert("hello from wasmoon (lua) ")'
-)
+)*/
