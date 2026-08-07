@@ -1,7 +1,7 @@
 // Import Bootstrap's CSS
 import './scss/style.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import { LuaFactory, luaFactory } from "wasmoon"
 // Import all of Bootstrap's JS (Popper is included automatically)
 import * as bootstrap from 'bootstrap'
 import { initPWA } from './pwa.js'
@@ -39,5 +39,14 @@ app.innerHTML = `
     </div>
   </div>
 `
-
 initPWA(app)
+const factory = new LuaFactory()
+const lua = await factory.createEngine()
+lua.global.set("print", function(txt) {
+  console.log(txt)
+})
+lua.global.set("app", app)
+lua.global.set("alert", window.alert)
+lua.doString(
+  'alert("hello from wasmoon (lua) ")'
+)

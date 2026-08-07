@@ -26,7 +26,8 @@
     "@popperjs/core": "^2.11.8",
     "@zenfs/core": "^2.6.2",
     "bootstrap": "^5.3.8",
-    "rollup": "^4.62.4"
+    "rollup": "^4.62.4",
+    "wasmoon": "^1.16.0"
   },
   "allowScripts": {
     "sharp@0.33.5": true,
