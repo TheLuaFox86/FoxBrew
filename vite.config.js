@@ -13,8 +13,9 @@ export default defineConfig({
       promiseImportName: i =>  `__tla_${i}`
     }),
     VitePWA({
-    registerType: 'prompt',
     strategies: "generateSW",
+    registerType: 'prompt',
+    
 
     pwaAssets: {
       disabled: false,
