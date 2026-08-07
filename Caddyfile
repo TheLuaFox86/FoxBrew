@@ -1,0 +1,9 @@
+localhost:8888 {
+    # 1. Direct local path straight to your Vite dev server
+    reverse_proxy /Offline_App_Test/* localhost:4001 {
+        header_up Host {upstream_host_header}
+    }
+
+    tls internal
+}
+
