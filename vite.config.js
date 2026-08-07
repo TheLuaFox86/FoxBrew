@@ -16,8 +16,6 @@ export default defineConfig({
     strategies: "injectManifest",
     srcDir: "./service-worker/",
     filename: "prompt-sw.js",
-    registerType: 'prompt',
-    
 
     pwaAssets: {
       disabled: false,
