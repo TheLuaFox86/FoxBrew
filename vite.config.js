@@ -13,7 +13,9 @@ export default defineConfig({
       promiseImportName: i =>  `__tla_${i}`
     }),
     VitePWA({
-    strategies: "generateSW",
+    strategies: "injectManifest",
+    srcDir: "./service-worker/",
+    filename: "prompt-sw.js",
     registerType: 'prompt',
     
 
