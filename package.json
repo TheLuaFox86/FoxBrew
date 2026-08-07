@@ -27,6 +27,7 @@
     "@zenfs/core": "^2.6.2",
     "bootstrap": "^5.3.8",
     "rollup": "^4.62.4",
+    "vite-plugin-top-level-await": "^1.6.0",
     "wasmoon": "^1.16.0"
   },
   "allowScripts": {
