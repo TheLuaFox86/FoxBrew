@@ -19,16 +19,16 @@ export default defineConfig({
       name: 'FoxBrew',
       short_name: 'FoxBrew',
       description: 'homebrew apps using a browser',
-      theme_color: '#3C0000',
+      theme_color: '#ff7700a3',
       display: 'standalone',      // Emulates a native app look
       orientation: 'portrait',
       start_url: '/FoxBrew/',
       scope: '/FoxBrew/',
       icons: [
         {
-          src: 'pwa-192x192.png',
+          src: 'favicon.jpg',
           sizes: '192x192',
-          type: 'image/png'
+          type: 'image/jpeg'
         }
       ]
     },
