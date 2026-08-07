@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "git add --all && git commit -m \"Auto Generated\" && git push && sleep 3 && gh workflow run \"Deploy WEBAPP\""
+    "deploy": "git add --all && git commit -m \"Auto Generated\" && git push"
   },
   "devDependencies": {
     "@vite-pwa/assets-generator": "^1.0.2",
