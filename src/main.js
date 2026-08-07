@@ -17,7 +17,7 @@ app.innerHTML = `
     <img src="https://theluafox86.github.io/logo.jpg" style="width: 20%; height: 20%">
     <h1>hello, im LuaFox</h1>
     <p class="read-the-docs">
-      this is a test Wellcome to my WebApp
+      im working on it comming soon
     </p>
     <h2 style="color:#ff0000;">~ 666 ~</h2>
   </div>
