@@ -15,10 +15,12 @@ function generateManifest() {
   function walk(current) {
     for (const entry of readdirSync(current, { withFileTypes: true })) {
       const full = resolve(current, entry.name);
-      if (entry.isDirectory()) {
-        walk(full);
-      } else {
-        files.push('/' + relative(abs, full).split('\\').join('/'));
+      if (relative(abs, full) != "_manifest.json") {
+        if (entry.isDirectory()) {
+          walk(full);
+        } else {
+          files.push('/' + relative(abs, full).split('\\').join('/'));
+        }
       }
     }
   }
