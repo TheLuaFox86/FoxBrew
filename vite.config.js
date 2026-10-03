@@ -1,8 +1,38 @@
 import { VitePWA } from 'vite-plugin-pwa';
 import { defineConfig } from 'vite'
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 import topLevelAwait from 'vite-plugin-top-level-await';
 import basicSsl from "@vitejs/plugin-basic-ssl";
 import mkcert from "vite-plugin-mkcert"
+import { readdirSync, writeFileSync, statSync } from 'fs';
+import { resolve, relative } from 'path';
+
+// Runs on every `vite dev`, `vite build`, `vite preview`
+function generateManifest() {
+  const abs = resolve(__dirname, 'public/FBOS');
+  const files = [];
+
+  function walk(current) {
+    for (const entry of readdirSync(current, { withFileTypes: true })) {
+      const full = resolve(current, entry.name);
+      if (entry.isDirectory()) {
+        walk(full);
+      } else {
+        files.push('/' + relative(abs, full).split('\\').join('/'));
+      }
+    }
+  }
+
+  walk(abs);
+  return files;
+}
+
+// Write it into public/ — Vite serves public/ in dev, copies it to dist/ in build
+writeFileSync(
+  resolve(__dirname, 'public/FBOS/_manifest.json'),
+  JSON.stringify(generateManifest(), null, 2)
+);
+
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -40,7 +70,7 @@ export default defineConfig({
     },
 
     workbox: {
-      globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
+      globPatterns: ['/**/*'],
       cleanupOutdatedCaches: true,
       clientsClaim: true,
       modifyURLPrefix: {
@@ -57,7 +87,15 @@ export default defineConfig({
     },
   }),
   basicSsl(),
-  mkcert()
+  mkcert(),
+  viteStaticCopy({
+      targets: [
+        {
+          src: 'public/FBOS/*',
+          dest: 'FBOS', // Preserves structure inside dist
+        },
+      ],
+  })
   ],
   server: {
     https: true
