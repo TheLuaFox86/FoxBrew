@@ -95,7 +95,13 @@ export default defineConfig({
           dest: 'FBOS', // Preserves structure inside dist
         },
       ],
-  })
+  }),
+  {
+    name: 'close-bundle',
+    closeBundle() {
+      process.exit(0)
+    }
+  }
   ],
   server: {
     https: true
