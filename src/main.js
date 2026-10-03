@@ -98,6 +98,7 @@ hydrateRO().then(function() {
     lua.global.set("print", function(txt) {
       console.log(txt)
     })
+    lua.global.set("fs", fs)
     lua.global.set("app", app)
     lua.doString(await fs.readFile("/OS/FB_BOOT.lua"))
   }
