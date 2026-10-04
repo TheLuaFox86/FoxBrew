@@ -1,3 +1,6 @@
 [
-  "/FB_BOOT.lua"
+  "/BIOS.lua",
+  "/FB_BOOT.lua",
+  "/class.lua",
+  "/lfsh.lua"
 ]

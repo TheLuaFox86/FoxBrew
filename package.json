@@ -24,16 +24,23 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "@xterm/xterm": "^6.0.0",
     "@zenfs/core": "^2.6.2",
     "bootstrap": "^5.3.8",
     "indexeddb-fs": "^2.1.5",
+    "just-bash": "^3.6.0",
     "rollup": "^4.62.4",
     "vite-plugin-static-copy": "^4.1.1",
     "vite-plugin-top-level-await": "^1.6.0",
-    "wasmoon": "^1.16.0"
+    "wasmoon": "^1.16.0",
+    "xterm-readline": "^1.3.0"
   },
   "allowScripts": {
     "sharp@0.33.5": true,
-    "esbuild@0.21.5": true
+    "@parcel/watcher@2.6.0": true,
+    "@swc/core@1.15.47": true,
+    "esbuild@0.25.12": true,
+    "@mongodb-js/zstd@7.0.0": true,
+    "node-liblzma@2.2.0": true
   }
 }

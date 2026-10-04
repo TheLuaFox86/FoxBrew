@@ -2,6 +2,9 @@
 import './scss/style.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import fs from 'indexeddb-fs';
+import { Terminal } from '@xterm/xterm';
+import '@xterm/xterm/css/xterm.css';
+import { Readline } from 'xterm-readline'; 
 import { LuaFactory, luaFactory } from "wasmoon"
 // Import all of Bootstrap's JS (Popper is included automatically)
 import * as bootstrap from 'bootstrap'
@@ -36,16 +39,7 @@ app.innerHTML = `
 `
 initPWA(app)
 // Check if a directory exists
-  var directoryExists = false;
-  if (await fs.exists("/OS")) {
-    directoryExists = await fs.isDirectory('/OS');
-  }
-  console.log(directoryExists)
-  // Create a new directory if it doesn't exist
-  if (!directoryExists) {
-    await fs.createDirectory('/OS');
-  }
-
+  
   const TEXT_EXT = /\.(txt|json|js|ts|css|html|md|xml|csv|svg|lua|wasm|py)$/i;
   
   async function isAccessible(url) {
@@ -59,6 +53,16 @@ initPWA(app)
 async function hydrateRO() {
   if (isAccessible("/FoxBrew/FBOS/_manifest.json")) {
       console.log("Updating System")
+      var directoryExists = false;
+      if (await fs.exists("/OS")) {
+        directoryExists = await fs.isDirectory('/OS');
+      }
+    // Create a new directory if it doesn't exist
+      if (directoryExists) {
+        await fs.removeDirectory("/OS")
+      }
+      await fs.createDirectory('/OS');
+
       const res = await fetch('/FoxBrew/FBOS/_manifest.json');
       const files = await res.json();
 
@@ -95,12 +99,16 @@ hydrateRO().then(function() {
   
     const factory = new LuaFactory()
     const lua = await factory.createEngine()
-    lua.global.set("print", function(txt) {
-      console.log(txt)
-    })
+    lua.global.set("print", console.log)
+    lua.global.set("printErr", console.error)
     lua.global.set("fs", fs)
+    lua.global.set("jswasi", {})
+    lua.global.set("term", new Terminal())
+    lua.global.set("RL", new Readline())
+    lua.global.set("DOCUMENT", document)
     lua.global.set("app", app)
-    lua.doString(await fs.readFile("/OS/FB_BOOT.lua"))
+    lua.doString(await fs.readFile("/OS/BIOS.lua"))
+
   }
    main();
 })

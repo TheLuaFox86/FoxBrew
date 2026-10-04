@@ -1,2 +1,13 @@
-app.innerHTML = "<h1 style='font-size:50pt'>Getting Closer</h1>" .. app.innerHTML
---print(fs.readFile("/OS/FB_BOOT.lua"):await())
+term.open(DOCUMENT.getElementById("Terminal"))
+term.writeln("")
+term.writeln("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-")
+term.writeln("               FoxBrew OS")
+term.writeln("      A Linux Inspired Experience")
+term.writeln("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-")
+while true do
+    Shell.run(RL.read("LFSH> "):await(), Shell.callback)
+    if doClear then
+        term.clear()
+        doClear = false
+    end
+end
