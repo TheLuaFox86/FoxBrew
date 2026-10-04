@@ -73,11 +73,9 @@ _G.dofile = function (path, ...)
         error("Error In Scipt " .. path .. ": " .. tb[2], 2)
     end
 end
-app.innerHTML = "<h1> Booting... </h1>"
+DOCUMENT.getElementById("splash").innerHTML = "<h1> Booting... </h1>"
 print("Starting...")
 dofile("OS/class.lua")
-app.innerHTML = "<div id=\"Terminal\" style=\"width:100%;height:100%;text-align:left;\"></div>"
-term.open(DOCUMENT.getElementById("Terminal"))
 term.loadAddon(RL)
 Shell = dofile("/OS/lfsh.lua")
 Shell.BinaryPaths = {

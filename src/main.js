@@ -3,6 +3,7 @@ import './scss/style.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import fs from 'indexeddb-fs';
 import { Terminal } from '@xterm/xterm';
+import { FitAddon } from '@xterm/addon-fit'
 import '@xterm/xterm/css/xterm.css';
 import { Readline } from 'xterm-readline'; 
 import { LuaFactory, luaFactory } from "wasmoon"
@@ -12,31 +13,22 @@ import { initPWA } from './pwa.js'
 
 const app = document.querySelector('#app')
 app.innerHTML = `
-  <div>
-    <img src="https://theluafox86.github.io/logo.jpg" style="width: 20%; height: 20%">
-    <h1>hello, im LuaFox</h1>
-    <p class="read-the-docs">
-      im working on it comming soon
-    </p>
-  </div>
-  <div
-    id="pwa-toast"
-    role="alert"
-    aria-labelledby="toast-message"
-  >
-    <div class="message">
-      <span id="toast-message"></span>
+  <div id="splash">
+    <div style="text-align: center;">
+      <img src="https://theluafox86.github.io/logo.jpg" style="width: 128px; height: auto;">
+      <h1>hello, im LuaFox</h1>
+      <p class="read-the-docs">im working on it comming soon</p>
     </div>
-    <div class="buttons">
-      <button id="pwa-refresh" type="button">
-        Reload
-      </button>
-      <button id="pwa-close" type="button">
-        Close
-      </button>
+    <div id="pwa-toast" role="alert" aria-labelledby="toast-message">
+      <div class="message"><span id="toast-message"></span></div>
+      <div class="buttons">
+        <button id="pwa-refresh" type="button">Reload</button>
+        <button id="pwa-close" type="button">Close</button>
+      </div>
     </div>
   </div>
-`
+  <div id="terminal" style="display:none;width:100%;height:100%;"></div>
+`   
 initPWA(app)
 // Check if a directory exists
   
@@ -103,10 +95,21 @@ hydrateRO().then(function() {
     lua.global.set("printErr", console.error)
     lua.global.set("fs", fs)
     lua.global.set("jswasi", {})
-    lua.global.set("term", new Terminal())
+    var term = new Terminal()
+    const fitAddon = new FitAddon();
+    term.loadAddon(fitAddon)
+    term.open(document.getElementById("terminal"))
+    const observer = new ResizeObserver(() => fitAddon.fit());
+    observer.observe(document.getElementById('terminal'));
+
+    lua.global.set("FA", fitAddon)  
+    
+    lua.global.set("term", term)
     lua.global.set("RL", new Readline())
     lua.global.set("DOCUMENT", document)
     lua.global.set("app", app)
+    lua.global.set("splash", document.getElementById("splash"))
+    lua.global.set("terminalContainer", document.getElementById("terminal"))
     lua.doString(await fs.readFile("/OS/BIOS.lua"))
 
   }
