@@ -59,7 +59,7 @@ export default defineConfig({
       description: 'homebrew apps using a browser',
       theme_color: '#ff7700a3',
       display: 'standalone',      // Emulates a native app look
-      orientation: 'portrait',
+      orientation: 'landscape',
       start_url: '/FoxBrew/',
       scope: '/FoxBrew/',
       icons: [
