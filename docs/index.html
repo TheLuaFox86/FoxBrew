@@ -57,14 +57,17 @@ async function init() {
     document.getElementById('status').innerText = 'Unlocking application...';
 
     // 2. Send password via MessageChannel safely
-    const success = await new Promise((resolve, reject) => {
+    const result = await new Promise((resolve, reject) => {
       const messageChannel = new MessageChannel();
-      messageChannel.port1.onmessage = (event) => resolve(event.data.success);
+      messageChannel.port1.onmessage = (event) => resolve(event.data);
+      messageChannel.port1.onmessageerror = () => reject(new Error('Could not read the service worker response.'));
       
       activeWorker.postMessage({ type: 'SET_PASSWORD', password }, [messageChannel.port2]);
     });
 
-    if (!success) throw new Error('Incorrect password.');
+    if (!result.success) {
+      throw new Error(result.error || 'The application could not be unlocked.');
+    }
 
     // 3. Fetch and decrypt core.html
     const res = await fetch('core.html');
