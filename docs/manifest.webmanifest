@@ -1,0 +1,1 @@
+{"name":"FoxBrew","short_name":"FoxBrew","description":"homebrew apps using a browser","start_url":"/FoxBrew/","display":"standalone","background_color":"#ffffff","theme_color":"#ff7700a3","lang":"en","scope":"/FoxBrew/","orientation":"landscape","icons":[{"src":"favicon.jpg","sizes":"192x192","type":"image/jpeg"}]}

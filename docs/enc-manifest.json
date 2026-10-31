@@ -1,0 +1,86 @@
+{
+  "FBOS/BIOS.lua": {
+    "s": "vd3TnZzH/iea/RhSDbQbbg==",
+    "i": "4oqIFxPxWIZRUkuU"
+  },
+  "FBOS/FB_BOOT.lua": {
+    "s": "IVi8RzOgSnpCHz6oVSxjrg==",
+    "i": "R+qd940MHWZMv5cC"
+  },
+  "FBOS/_manifest.json": {
+    "s": "6lpse7F7tABlJ6uAKcIcBQ==",
+    "i": "h4DQlgMIA+Ot5VH/"
+  },
+  "FBOS/class.lua": {
+    "s": "ohm+188rqNXO2XthivRxmA==",
+    "i": "wgR+7VuBENjgx0iz"
+  },
+  "FBOS/lfsh.lua": {
+    "s": "3JtXuw5qfN9YVYSGvOxYiw==",
+    "i": "qWm5cwetcxaONimd"
+  },
+  "FBOS/public/FBOS/BIOS.lua": {
+    "s": "4mUO9DMwZsxmDPPYEBpSNg==",
+    "i": "UPJD4J5eHkLTCiHV"
+  },
+  "FBOS/public/FBOS/FB_BOOT.lua": {
+    "s": "+ojVaH4IiIOWE93rz9oSXw==",
+    "i": "rMq4oPsGIiotVPQl"
+  },
+  "FBOS/public/FBOS/_manifest.json": {
+    "s": "acrExO2BXEnLUCWsr7WSPg==",
+    "i": "5TzlbuokuF9OWCyY"
+  },
+  "FBOS/public/FBOS/class.lua": {
+    "s": "H9ztUbDX3eO3HaBDX0/vdA==",
+    "i": "O5soEPwa0DGx497S"
+  },
+  "FBOS/public/FBOS/lfsh.lua": {
+    "s": "doD45rq9WLoIMiLlc7AD7Q==",
+    "i": "zmslJ87p6Gc3qXPO"
+  },
+  "apple-touch-icon-180x180.png": {
+    "s": "773ePcd4cBgmmN/09ElmtQ==",
+    "i": "qgpX6Z3jsw5jC9Ek"
+  },
+  "assets/index-C8Abg9Tg.css": {
+    "s": "t6fTB9FnCwvDURPMEdpOWQ==",
+    "i": "swNozybWKlsblBlp"
+  },
+  "assets/index-Dms4OYr4.js": {
+    "s": "sutmVN6+D3DBbdh8HbKbQQ==",
+    "i": "HPqAW+XL35BCAliK"
+  },
+  "assets/workbox-window.prod.es5-BBnX5xw4.js": {
+    "s": "fQ+/IwRBcqP8NNsHFCfbZw==",
+    "i": "Xrb4jgKg1QIbG1Sq"
+  },
+  "core.html": {
+    "s": "OL/l4UPL9A0ZIq6uvpNauA==",
+    "i": "4KvVwjuRlX9mjM6K"
+  },
+  "favicon.ico": {
+    "s": "vV0krtw1DJSNzOJgSAh8pQ==",
+    "i": "7WyhyHW0BHrB5doG"
+  },
+  "logo.jpg": {
+    "s": "NUd2CE4GaWEdgYMWCmpj8g==",
+    "i": "BF+1O5Rp+gGVsrO+"
+  },
+  "maskable-icon-512x512.png": {
+    "s": "dt2JFAm556SNW/rgW9+d+Q==",
+    "i": "yNpfj4DNMPXh5NWZ"
+  },
+  "pwa-192x192.png": {
+    "s": "U9v4zASBQspbeT37deZetQ==",
+    "i": "NFAkMOj5iybz93Cz"
+  },
+  "pwa-512x512.png": {
+    "s": "3S0csg4gHxuVE3G59W3bLA==",
+    "i": "t7IGlBjcWE8X992l"
+  },
+  "pwa-64x64.png": {
+    "s": "5RLOSxXx+Q4bDLovWADWkA==",
+    "i": "K8O8fYjW/RScUHWA"
+  }
+}

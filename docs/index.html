@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FoxBrew Secure Loader</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #121212; color: #fff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+    #status { text-align: center; font-size: 1.2rem; }
+  </style>
+</head>
+<body>
+  <div id="status">Initializing Secure Environment...</div>
+
+  <script type="module">
+async function init() {
+  if (!('serviceWorker' in navigator)) {
+    document.getElementById('status').innerText = 'Service Workers not supported.';
+    return;
+  }
+
+  try {
+    // 1. Register the Service Worker
+    const reg = await navigator.serviceWorker.register('sw.js');
+
+    // Wait until the service worker is fully active and ready
+    let worker = reg.active || reg.waiting || reg.installing;
+    
+    if (!navigator.serviceWorker.controller) {
+      // If controller isn't claimed yet, wait for state changes
+      await new Promise((resolve) => {
+        if (reg.active) {
+          resolve();
+        } else {
+          worker.addEventListener('statechange', (e) => {
+            if (e.target.state === 'activated') resolve();
+          });
+        }
+      });
+    }
+
+    const activeWorker = navigator.serviceWorker.controller || reg.active;
+    if (!activeWorker) throw new Error('Service worker failed to become active.');
+
+    const password = prompt('Enter decryption password:');
+    if (!password) throw new Error('Password required.');
+
+    document.getElementById('status').innerText = 'Unlocking application...';
+
+    // 2. Send password via MessageChannel safely
+    const success = await new Promise((resolve, reject) => {
+      const messageChannel = new MessageChannel();
+      messageChannel.port1.onmessage = (event) => resolve(event.data.success);
+      
+      activeWorker.postMessage({ type: 'SET_PASSWORD', password }, [messageChannel.port2]);
+    });
+
+    if (!success) throw new Error('Incorrect password.');
+
+    // 3. Fetch and decrypt core.html
+    const res = await fetch('core.html');
+    if (!res.ok) throw new Error('Failed to load core application.');
+    
+    const htmlText = await res.text();
+    document.open();
+    document.write(htmlText);
+    document.close();
+
+  } catch (err) {
+    console.error(err);
+    document.getElementById('status').innerHTML = 'Access Denied: ' + err.message;
+  }
+}
+
+init();
+</script>
+</body>
+</html>
