@@ -2,15 +2,25 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="mobile-web-app-capable" content="yes">
   <title>FoxBrew Secure Loader</title>
   <style>
     body { font-family: system-ui, sans-serif; background: #121212; color: #fff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-    #status { text-align: center; font-size: 1.2rem; }
+    main { max-width: 32rem; padding: 1.5rem; text-align: center; }
+    #status { font-size: 1.2rem; }
+    .hard-refresh-button { margin-top: 1rem; padding: 0.65rem 1rem; color: #fff; background: transparent; border: 1px solid #999; border-radius: 0.4rem; cursor: pointer; }
+    .hard-refresh-button:disabled { opacity: 0.6; cursor: wait; }
+    .hard-refresh-status { min-height: 1.5em; font-size: 0.9rem; }
   </style>
 </head>
 <body>
-  <div id="status">Initializing Secure Environment...</div>
+  <main>
+    <div id="status">Initializing Secure Environment...</div>
+    <button class="hard-refresh-button" type="button">Not working? Click here to run a hard refresh</button>
+    <p class="hard-refresh-status" role="status" aria-live="polite"></p>
+  </main>
 
+  <script src="hard-refresh.js"></script>
   <script type="module">
 async function init() {
   if (!('serviceWorker' in navigator)) {
