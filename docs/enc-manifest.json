@@ -1,86 +1,94 @@
 {
   "FBOS/BIOS.lua": {
-    "s": "jZmA6ohuyav8BeBYuus/ag==",
-    "i": "PSh3KxF34CU03I4R"
+    "s": "8oDcIVYdBexGVxyG3IsKcA==",
+    "i": "UkGjk691dqQUA432"
   },
   "FBOS/FB_BOOT.lua": {
-    "s": "3np1tGooivU9S0uiumPJuQ==",
-    "i": "pYVpGqU3rDbHXZx0"
+    "s": "eDP9ZfbVYGdAHhZ1cJ5Kbw==",
+    "i": "2qwzSRLuQKUc+y5p"
   },
   "FBOS/_manifest.json": {
-    "s": "7s7izgihiSNzPB2/b9ysZw==",
-    "i": "YSHU7317C+mYm+mh"
+    "s": "I/7SXazn6Rxss55X+J+ZUw==",
+    "i": "R8/uLLYFf/kmddrx"
+  },
+  "FBOS/bin/Proxy.lua": {
+    "s": "dmvdCDaLwaAFytDz9EawEA==",
+    "i": "Z6ilWbT76vqXB5BR"
   },
   "FBOS/class.lua": {
-    "s": "1FClOMq9Y+2RIaJlRNAhMQ==",
-    "i": "oF6H4UCIJcrihtDH"
+    "s": "H9D54Tw60zVIIUvkHvEFbg==",
+    "i": "jzD8Qv18nLJx7Cmt"
   },
   "FBOS/lfsh.lua": {
-    "s": "v5NcwWjAP9iyJzTjMDcfiA==",
-    "i": "9GQu3FQmNNqvOcx2"
+    "s": "Hd8ToWvEAGlvsduAk5QtXQ==",
+    "i": "tUVpcf5UgO9DeJNv"
   },
   "FBOS/public/FBOS/BIOS.lua": {
-    "s": "jQqBvNCFQHXjzzY9SDAlBg==",
-    "i": "WcK1gWzirO054xCN"
+    "s": "mrKXIh1zpBAlvuX1K4seDw==",
+    "i": "b8MPe0lj39u8Tx+l"
   },
   "FBOS/public/FBOS/FB_BOOT.lua": {
-    "s": "MZ0rJ4F2s/dH1pDJIgkL4w==",
-    "i": "BU+6ZhfuU8M+74I0"
+    "s": "fTG0/h1p/p4VAIEWXtV+eg==",
+    "i": "OcToKbn7Gdyb65tS"
   },
   "FBOS/public/FBOS/_manifest.json": {
-    "s": "u87RKaCEovDtyrM9lhr9Og==",
-    "i": "RNIpWXTiofYjWKID"
+    "s": "HScEO0+AWB8/UNrn0v87UA==",
+    "i": "poAc5y3JjsPw+Zov"
   },
   "FBOS/public/FBOS/class.lua": {
-    "s": "FnDAvFyfaVrp2dTWREtxDw==",
-    "i": "ULmS9jIbrf4XI5jz"
+    "s": "iQ5gzD1px9CWBff5bpTf4g==",
+    "i": "Q4IW+xhM1exTN4oy"
   },
   "FBOS/public/FBOS/lfsh.lua": {
-    "s": "/F2l53xSCnqyb06AtTCVyQ==",
-    "i": "C2N01paBciK/WaQU"
+    "s": "BcxzBJj82x9u2TwYXoRs4A==",
+    "i": "B4b7VPVkwLoFEZlP"
   },
   "apple-touch-icon-180x180.png": {
-    "s": "t2ESDz2MFKDvBVswfRaavw==",
-    "i": "1xW/gqV4bnRspdVG"
+    "s": "0htOO3GSCOBYeIruvkU6bQ==",
+    "i": "BAkfXBkd88u5FPGF"
+  },
+  "assets/favicon-mUBdwmBx.jpg": {
+    "s": "1gN3i6snSokNxO0Otf+oTg==",
+    "i": "e9OQEELBmzQLu9zl"
+  },
+  "assets/index-B-RbR93K.js": {
+    "s": "8kgn11fGSUsWB/rTTrAdqw==",
+    "i": "dc636JzYiXB5y2CQ"
   },
   "assets/index-C8Abg9Tg.css": {
-    "s": "pgr7cRabLNKx+RfOOmB+PQ==",
-    "i": "D7RpujBWwmqTEoCw"
-  },
-  "assets/index-Dms4OYr4.js": {
-    "s": "dQQIu3ClG63zu8VEuT19Kw==",
-    "i": "oUbuGq6VjQFd/m20"
+    "s": "nbQxIjxftOtfG6daeCVcTQ==",
+    "i": "FQySqbp4gwVPGC8M"
   },
   "assets/workbox-window.prod.es5-BBnX5xw4.js": {
-    "s": "mkzqHjoymWfWLqMhp0hNkA==",
-    "i": "PLfLe44DD6Mx3o7j"
+    "s": "k7HNdcN/8Rh5ZF1iZweJ+g==",
+    "i": "cL0XFFWfr5IjaHHD"
   },
   "core.html": {
-    "s": "m+UtfLLVxLS47xN4Eo/rrw==",
-    "i": "o/tXfvjukBnGcA1V"
+    "s": "kWyMe20hpOX6es2wX3TgnA==",
+    "i": "vEMZrEn4wjycRLUD"
   },
   "favicon.ico": {
-    "s": "tTl3yrScLjlUe4Q+qgy3EA==",
-    "i": "aCRBn+Gm123XNT4o"
+    "s": "chJXU4Y4aQblXoPN82wdmg==",
+    "i": "5/+6BojzZizhHYAn"
   },
   "logo.jpg": {
-    "s": "Kbw9dJb6NAltEOnM5GOa9g==",
-    "i": "1ODNJdNrsVIL0aXX"
+    "s": "svjijTWqCaDtWrmdbE7NPQ==",
+    "i": "zIrWvbvUXzKUKaC2"
   },
   "maskable-icon-512x512.png": {
-    "s": "CLcy87TWoFGCws774hGheQ==",
-    "i": "/xJPdhQpFcSqx5rt"
+    "s": "PSJ+G493LKva+TrI+GdDrg==",
+    "i": "58uzqIkO6pgfwq4Q"
   },
   "pwa-192x192.png": {
-    "s": "1QFkGsMF/JoAl8YSJT6DHQ==",
-    "i": "h9NYhFIw7I0rQBzh"
+    "s": "AbfeDcVWkut5D8IsSPOIrg==",
+    "i": "YkkB5/nu9N1X/Abn"
   },
   "pwa-512x512.png": {
-    "s": "rJS2+O1F4/CivRbqrH9lzg==",
-    "i": "wRmNj3iOiIl+/ahL"
+    "s": "ZkHX1/R8ZPoJO9OxlfgGHA==",
+    "i": "lbKe7hKl+ftd+eUe"
   },
   "pwa-64x64.png": {
-    "s": "u8nXK7On2EiDK+dWrLo8mQ==",
-    "i": "aIfT9cD1dhmegt54"
+    "s": "RuZei2s4uS/GE6RE9GgMlQ==",
+    "i": "A1V4mXbtK8d1ZqCd"
   }
 }

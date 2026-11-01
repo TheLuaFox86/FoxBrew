@@ -19,10 +19,11 @@
     <button class="hard-refresh-button" type="button">Not working? Click here to run a hard refresh</button>
     <p class="hard-refresh-status" role="status" aria-live="polite"></p>
   </main>
-
+  <input type=""hidden" id="password" value="">
+  <button id="submit">Unlock</button>
   <script src="hard-refresh.js"></script>
   <script type="module">
-async function init() {
+async function init(data) {
   if (!('serviceWorker' in navigator)) {
     document.getElementById('status').innerText = 'Service Workers not supported.';
     return;
@@ -51,7 +52,8 @@ async function init() {
     const activeWorker = navigator.serviceWorker.controller || reg.active;
     if (!activeWorker) throw new Error('Service worker failed to become active.');
 
-    const password = prompt('Enter decryption password:');
+    const password = document.getElementById('password').value;
+    console.log('Password entered:', password);
     if (!password) throw new Error('Password required.');
 
     document.getElementById('status').innerText = 'Unlocking application...';
@@ -83,8 +85,9 @@ async function init() {
     document.getElementById('status').innerHTML = 'Access Denied: ' + err.message;
   }
 }
-
-init();
+document.getElementById('submit').addEventListener('click', () => {
+  init();
+});
 </script>
 </body>
 </html>
