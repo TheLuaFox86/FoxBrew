@@ -1,94 +1,102 @@
 {
   "FBOS/BIOS.lua": {
-    "s": "00badPj1YcSyxqJXrBJ3+w==",
-    "i": "wFSsUau7NOEq/9yE"
+    "s": "+T7lE9Lf8NY6IHk3RY1sMg==",
+    "i": "m9LyWQzersdHKl9/"
   },
   "FBOS/FB_BOOT.lua": {
-    "s": "56BbDXS/WItmDdYFl90NpQ==",
-    "i": "65gi9Xd3GzU1NT2v"
+    "s": "Ihvb4H5pg3/CQ2NmKapmMQ==",
+    "i": "jplJUts8O/wBOGqW"
   },
   "FBOS/_manifest.json": {
-    "s": "pHaWZAkeGrkphqFudib2fg==",
-    "i": "YqUL/XyYHtSItbM+"
+    "s": "QqGjnAnDOtMu98z8PhnzUg==",
+    "i": "QkOPh7QjRXAZ36M7"
   },
   "FBOS/bin/Proxy.lua": {
-    "s": "ZWJLpWl42po4R8XCoimVfw==",
-    "i": "TVDbdgpxl23Ao4Lk"
+    "s": "X0q/K3EjNqY32BA14eEGDQ==",
+    "i": "oaB8Nh563lszhC/7"
+  },
+  "FBOS/bin/unzip.lua": {
+    "s": "WQCcjT2WUGfF/Al0XSAC7Q==",
+    "i": "K8n7OER/8GhUWSFV"
+  },
+  "FBOS/bin/wget.lua": {
+    "s": "iHq2ZAW80EybCQkOHwjBKQ==",
+    "i": "KkOsZm958DZFuyzL"
   },
   "FBOS/class.lua": {
-    "s": "g9Bad9OOOPsabWX/wiwk2Q==",
-    "i": "KECyao0S79UKabHa"
+    "s": "8DbMt6SAjN/ZvDhyFwbuYQ==",
+    "i": "bJuN+rFrdl7jQe96"
   },
   "FBOS/lfsh.lua": {
-    "s": "WdRBU6XDOgKax1fgw8OJMg==",
-    "i": "h6AM/m2u1lLILNRB"
+    "s": "TWwTvQAbBmwq1YhKDoniZA==",
+    "i": "xH5O3zzAwlSucz1L"
   },
   "FBOS/public/FBOS/BIOS.lua": {
-    "s": "6NTZVWNfpNgvrZ0iiQ/FtA==",
-    "i": "72uaTHPWn/sr9Zai"
+    "s": "V8m511eT5nsb7IS5KsvHkQ==",
+    "i": "Gd7R74qZEWZof4m7"
   },
   "FBOS/public/FBOS/FB_BOOT.lua": {
-    "s": "4R6EGcFG7WS8n1QnzV7a1w==",
-    "i": "WPuwMzbEbUSt1Iuu"
+    "s": "zP4RgzuwHNg6uRAlsT+j8g==",
+    "i": "m7QP6oam/8ug6PfY"
   },
   "FBOS/public/FBOS/_manifest.json": {
-    "s": "TeB4dtUNWyLxM0luLJnjKA==",
-    "i": "WGlNITKs6XSPlsck"
+    "s": "oDfmXPnQbKe91suRknCAZQ==",
+    "i": "amYjylKeV50RtBlK"
   },
   "FBOS/public/FBOS/class.lua": {
-    "s": "ggl97eN9+NdnYo4iNcRizg==",
-    "i": "kvoiTYVdgutBA5zR"
+    "s": "SUWA2Cfn31P3U3w/rHS6vA==",
+    "i": "yWZVxA8VZu1qblZR"
   },
   "FBOS/public/FBOS/lfsh.lua": {
-    "s": "1lLUSQ7Cr70q09H0XZdtCw==",
-    "i": "Fl5cYDBGHuV02nDY"
+    "s": "NNEAYf0b1LZdEzXbA32a4Q==",
+    "i": "uUxwKWJQNgNG/Bdj"
   },
   "apple-touch-icon-180x180.png": {
-    "s": "Ul6lbDvP6XFeF9JAOKJc/A==",
-    "i": "63uEiAgU/k1oupu+"
+    "s": "veszIrZIJrsM8uGAW2QdIw==",
+    "i": "83TYEbUYXxZAAT/F"
   },
   "assets/favicon-mUBdwmBx.jpg": {
-    "s": "bWK8RpKbh37aG7MuKmdjVQ==",
-    "i": "/3U2zEjw8nEKdS1a"
+    "s": "jsLilFyT32DFw0mGZ6AORg==",
+    "i": "TsAb/qQIw4cdRvhr"
   },
-  "assets/index-B-RbR93K.js": {
-    "s": "+M6QGyj+Yf8F3DujwQ5UQw==",
-    "i": "2IjdFRQGd/4KuDWs"
+  "assets/index-BYPV25WB.js": {
+    "s": "j31eE1MMq1L8V4dO+5wv1Q==",
+    "i": "1YFbeprWHZLGkv4k"
   },
   "assets/index-C8Abg9Tg.css": {
-    "s": "0ulb1JLL0USwVzqg7qw0uQ==",
-    "i": "Jpo/YYqMAjlYA9Wk"
+    "s": "uRf/Ca9HdooY0Cmr3Z0vlg==",
+    "i": "I/FwYPgRYALHP+FY"
   },
   "assets/workbox-window.prod.es5-BBnX5xw4.js": {
-    "s": "Lq9jsRqtLABQ0F5+S2AM5Q==",
-    "i": "OVsWRkrgoQLKS+R5"
+    "s": "e3906fvANg173TF5jiKWJA==",
+    "i": "JlyI8uWwewZAYFmR"
   },
   "core.html": {
-    "s": "H0QLTdTGdS/nIvAXEHhCxA==",
-    "i": "h8dJFvQRjATx78WU"
+    "s": "u24rDM0s1FtU5XR7ie0i8g==",
+    "i": "TxGXwnpS32p8yyL8"
   },
   "favicon.ico": {
-    "s": "lSzjVCk6+TYuvK7zK6HP4A==",
-    "i": "NPD4OS48RGantPRA"
+    "s": "0PAeKx0zev1qjNyH1+5w7Q==",
+    "i": "xwTMcJ/GC05aJBeq"
   },
   "logo.jpg": {
-    "s": "V2XkaW84zC9S1wORaRWHgg==",
-    "i": "F70VbZ4FVwPtmLMX"
+    "s": "EvC/9Ig/va7UdG4aWZxASA==",
+    "i": "Kdozw7K6iNwgh0NQ"
   },
   "maskable-icon-512x512.png": {
-    "s": "fnTfs4mmSqF3HaMBbobYhA==",
-    "i": "DdKOjwfcB3sHoMsW"
+    "s": "8nGRd2GK/j8V/bR+S3/nVg==",
+    "i": "zGgOLXY6ZPZUTldO"
   },
   "pwa-192x192.png": {
-    "s": "WEhB5JNj5mofaFQSLEpZNQ==",
-    "i": "UVyGTFYXrG6uFvx0"
+    "s": "wtckpyccFDfN/3Krr8b+bw==",
+    "i": "mSrX4PoUXO3gfAcc"
   },
   "pwa-512x512.png": {
-    "s": "HL4lviTGbF7Brw1utM++gA==",
-    "i": "rDlrcBn3WAZcZJno"
+    "s": "jA4gMHnmUYdVtgODZtNzzw==",
+    "i": "Lcbltp7KL5RmNtPC"
   },
   "pwa-64x64.png": {
-    "s": "LDy2ewkXyEIWjojeJmgKuQ==",
-    "i": "7+fPdwpnPUqGReBt"
+    "s": "/bTSLhJyQG7h6GTXMxuDgA==",
+    "i": "4j2ngsDmqLeBOLo/"
   }
 }
