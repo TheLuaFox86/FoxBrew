@@ -1,110 +1,110 @@
 {
   "FBOS/OS/BIOS.lua": {
-    "s": "Ya8ltFRD6+AqkmKCXptYYA==",
-    "i": "kseH+IhpN7ITa7B/"
+    "s": "qNlsEBRq443w7pPKvWvCEg==",
+    "i": "PjUrFIXUiCpQpnbK"
   },
   "FBOS/OS/FB_BOOT.lua": {
-    "s": "bPzOifZASWrJkUmvgUjQuQ==",
-    "i": "xA+QTKLmTzIEVATY"
+    "s": "W3iSm67xVZzHOqGeV75gVw==",
+    "i": "3C6vNDebNO7+NcK/"
   },
   "FBOS/OS/bin/Proxy.lua": {
-    "s": "6BnFTWqBviBjNf1as5HQiw==",
-    "i": "MkgvSscIoDX25CD8"
+    "s": "EtHvVu/K85zPudbrr7d6zQ==",
+    "i": "m6mE2NvXRaNUWwOz"
   },
   "FBOS/OS/bin/nano.lua": {
-    "s": "9+5rtOUGGTPYjzzzuvHcpQ==",
-    "i": "INzq55+tSjBkx9mf"
+    "s": "vHNIcMAcuG6KHjTm+3VwAA==",
+    "i": "mce39Fv1txJzCU0E"
   },
   "FBOS/OS/bin/unzip.lua": {
-    "s": "1M9uuJt1sZRufmgU8/F2RQ==",
-    "i": "9hgvyOgczKvuaJYG"
+    "s": "DSwSz5bVe5iPsRkrF3W6uA==",
+    "i": "k+NFZhZMWTHA3N3d"
   },
   "FBOS/OS/bin/wget.lua": {
-    "s": "28UgP+iMmb1dqQtpSBi+Fg==",
-    "i": "lHiak6LBNhRnYE+T"
+    "s": "e9dJ6HSaG7aCXLUoQRl1jw==",
+    "i": "NWHHNBc/IM0Dgkjo"
   },
   "FBOS/OS/bin/zip.lua": {
-    "s": "zKWpTjBquCxYgV8ybFf5aA==",
-    "i": "JYz0dpY2sxyk0beT"
+    "s": "82Yf6q0fcTHp1+kHVJmJhQ==",
+    "i": "cr1YyfM9Ioz17cgG"
   },
   "FBOS/OS/class.lua": {
-    "s": "fmTYSSBfYWq6hNsrGrB+6w==",
-    "i": "u95V6WLYsj4UwDdB"
+    "s": "bpDbzkB78cv6Qr7zJBuIyw==",
+    "i": "xj8V8fxpVmvcgUkr"
   },
   "FBOS/OS/lfsh.lua": {
-    "s": "BXD+s8Xy2vVbrzynKsiLDQ==",
-    "i": "jNs0ABkW1vwMM9Ai"
+    "s": "QUP2gcZoR1kS7JJJqaP4Nw==",
+    "i": "I+tJaW+woO+GxdrA"
   },
   "FBOS/_manifest.json": {
-    "s": "wEcVkH4wXaaNz7gG7FWfmw==",
-    "i": "VyuDJEWJ/zXO+Jvj"
+    "s": "ntABs7BNB6X8qPiBM29jZg==",
+    "i": "fLWx/SizifAJKwEC"
   },
   "FBOS/home/root/.local/edit_me.txt": {
-    "s": "kX3ZYNy0k2AdgGULrdJvaA==",
-    "i": "yENuZZJQK1p9LHH6"
+    "s": "iKvrcVqkumj7Pfa4RUICtg==",
+    "i": "Qv2cZQlOGLcSElf6"
   },
   "FBOS/home/root/.local/placeholder.txt": {
-    "s": "yEm+o5VG5Z4Au1q1YnKeIA==",
-    "i": "3Lck8wa7+y41rmYB"
+    "s": "aqrSDs8WeqbRc20LaivvjQ==",
+    "i": "M2QsgwGNq+tstnyY"
   },
   "FBOS/public/FBOS/_manifest.json": {
-    "s": "ZLTYeLkTzc3huBOuIwEeLw==",
-    "i": "Fp3WA3Ov5OuuESi3"
+    "s": "+8bvVM9g48nPnECQe2sFcA==",
+    "i": "jDB/gAT87n8b4Mgp"
   },
   "apple-touch-icon-180x180.png": {
-    "s": "oSlIfW6zKwZB2LczcJz0pg==",
-    "i": "2fGrDqro/YH/a01K"
+    "s": "0PKS8XgDTAoycKuaRz5A7w==",
+    "i": "Jd/UTS5Lpt75iys7"
   },
   "assets/favicon-lnfJb8W_.jpg": {
-    "s": "ouSPsHi2tkYnBfD7+yLScQ==",
-    "i": "dGRbde4UXXmDrc0P"
+    "s": "9SbekgeM5zPepgRmQjOr2w==",
+    "i": "Pa6cOW49qExUrMzM"
   },
   "assets/index-C8Abg9Tg.css": {
-    "s": "z/8YOWc79wCwYWNINCmZnQ==",
-    "i": "ED1LSWNe5/yriLhx"
+    "s": "3lBlOt4+CfgXBo4x9tDwNw==",
+    "i": "8xzeltt/wrX6hMMN"
   },
   "assets/index-D1ZSaeOK.js": {
-    "s": "rgIgDT47AVvY2WiSf12OjA==",
-    "i": "1oOF5Dn3u25KOOn1"
+    "s": "2958egVob0SVu764E/NUVg==",
+    "i": "Ee12y9ilvkgk+GI1"
   },
   "assets/workbox-window.prod.es5-BBnX5xw4.js": {
-    "s": "FX1wxOf9f8VDmGsVR1MoGg==",
-    "i": "DWdeGHHEM+SdTOsG"
+    "s": "0TONVZ6zO6WeOtWxiIy0eA==",
+    "i": "HDlcanULZHp5C5BC"
   },
   "core.html": {
-    "s": "OiEZdyR9eILiS2KBtkOhpQ==",
-    "i": "bGTMN/H9jsohzVI1"
+    "s": "2gU7G3ktcwJmjiWOVaA+cQ==",
+    "i": "zYV2qd1fu3BC1Mwb"
   },
   "favicon.ico": {
-    "s": "itaiYqkSAj3x2SJs/qa5Fg==",
-    "i": "bEAbROcg/mIETHM2"
+    "s": "yvo+QtMlK2JzO6XNQwpyaA==",
+    "i": "qYNF0MZG4XdO2bQB"
   },
   "favicon.jpg": {
-    "s": "xXgXf9lNrDEOxLpC+maEYQ==",
-    "i": "TXRUtZDu2+028dVt"
+    "s": "DEoQcY4XySCS1V2uaaPg+g==",
+    "i": "4CqpJe7t0ob3XQv4"
   },
   "logo.jpg": {
-    "s": "yBAztA3kBh1ynPbNKENH6g==",
-    "i": "mlD8mdW2KTi/xUmq"
+    "s": "v9dt1B+k66ezb3GxG3sM7w==",
+    "i": "M5iOJTXDvyFMs6sK"
   },
   "manifest.webmanifest": {
-    "s": "mCAwL1fD0i6HVp71iqd7kQ==",
-    "i": "mvS27t21UOwgjuA0"
+    "s": "vPhXuDoc233mOrgSERZ0YA==",
+    "i": "SlqAEhXKKk6Xopye"
   },
   "maskable-icon-512x512.png": {
-    "s": "CLiNHTxkrELFTer1SE8d6g==",
-    "i": "lPwBE5nGz1Xi5GSX"
+    "s": "grtbj2zGgSwt7mgP5sTDzw==",
+    "i": "cu++Uf2MVmE+h3RY"
   },
   "pwa-192x192.png": {
-    "s": "w/Ch1uYE5xelOuMS0oTvoA==",
-    "i": "c6tOCcQihelK1K5Z"
+    "s": "MuQp9ALygic0Ra3caviIaw==",
+    "i": "ildQ7D2nyegCZmsE"
   },
   "pwa-512x512.png": {
-    "s": "bVHhTwj4lAJnwUH+UzTHPw==",
-    "i": "xPDRp4JZYZ1XZafq"
+    "s": "0BFECxu4J+DbSfjtZ6c1wA==",
+    "i": "G0eQquguAuYwBtmQ"
   },
   "pwa-64x64.png": {
-    "s": "6atsunnN4wuPShOzvo+7EQ==",
-    "i": "i2UX7op9QaaBXyfk"
+    "s": "PmEWt5TrJOwFhx9S06xHng==",
+    "i": "QT+hy6xHFN+GLfRR"
   }
 }
