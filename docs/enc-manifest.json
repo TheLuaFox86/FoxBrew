@@ -1,110 +1,82 @@
 {
   "FBOS/OS/BIOS.lua": {
-    "s": "qNlsEBRq443w7pPKvWvCEg==",
-    "i": "PjUrFIXUiCpQpnbK"
+    "s": "kIgNIl7krdnrDfYWxS5CLQ==",
+    "i": "DfPTP/dwgYBdHdWc"
   },
   "FBOS/OS/FB_BOOT.lua": {
-    "s": "W3iSm67xVZzHOqGeV75gVw==",
-    "i": "3C6vNDebNO7+NcK/"
+    "s": "teLDk11k/hZuXU4vOTMcgw==",
+    "i": "rzdVhtcy0w1aE4K1"
   },
   "FBOS/OS/bin/Proxy.lua": {
-    "s": "EtHvVu/K85zPudbrr7d6zQ==",
-    "i": "m6mE2NvXRaNUWwOz"
+    "s": "VCIxQz/JMKRKBC227ylH2Q==",
+    "i": "AZfl8CfAj1wVPlnw"
   },
   "FBOS/OS/bin/nano.lua": {
-    "s": "vHNIcMAcuG6KHjTm+3VwAA==",
-    "i": "mce39Fv1txJzCU0E"
+    "s": "boLGyr8C0KR4alpjBr/04A==",
+    "i": "NK6Bxx4COc4OVUhB"
+  },
+  "FBOS/OS/bin/uldl.lua": {
+    "s": "fF4vfy27LbB6Lh8ZBmjACg==",
+    "i": "DPIdAOzwy7oqhegn"
   },
   "FBOS/OS/bin/unzip.lua": {
-    "s": "DSwSz5bVe5iPsRkrF3W6uA==",
-    "i": "k+NFZhZMWTHA3N3d"
+    "s": "E93qoSz2a45I228KsRVbPw==",
+    "i": "+5BQSCBToUQWf/vL"
   },
   "FBOS/OS/bin/wget.lua": {
-    "s": "e9dJ6HSaG7aCXLUoQRl1jw==",
-    "i": "NWHHNBc/IM0Dgkjo"
+    "s": "HnLqwxFAAiUD12dXUUus4w==",
+    "i": "sSffASvZmgpl1DZm"
   },
   "FBOS/OS/bin/zip.lua": {
-    "s": "82Yf6q0fcTHp1+kHVJmJhQ==",
-    "i": "cr1YyfM9Ioz17cgG"
+    "s": "yQ8+KMD7Jhwl3IHvJG659g==",
+    "i": "xdbQZQH3KwEBSD9Z"
   },
   "FBOS/OS/class.lua": {
-    "s": "bpDbzkB78cv6Qr7zJBuIyw==",
-    "i": "xj8V8fxpVmvcgUkr"
+    "s": "Sk36mmS0hXMv7DKYX2QvrA==",
+    "i": "diky3XCZ9sksFY3R"
   },
   "FBOS/OS/lfsh.lua": {
-    "s": "QUP2gcZoR1kS7JJJqaP4Nw==",
-    "i": "I+tJaW+woO+GxdrA"
+    "s": "RvwknUtH7XIoZl6OM0mGCQ==",
+    "i": "gPoy85PgtVoMay53"
   },
   "FBOS/_manifest.json": {
-    "s": "ntABs7BNB6X8qPiBM29jZg==",
-    "i": "fLWx/SizifAJKwEC"
+    "s": "vVf+o6hlIizxLCkG+usWUA==",
+    "i": "JI6DHcBuJDu3y4NP"
   },
-  "FBOS/home/root/.local/edit_me.txt": {
-    "s": "iKvrcVqkumj7Pfa4RUICtg==",
-    "i": "Qv2cZQlOGLcSElf6"
-  },
-  "FBOS/home/root/.local/placeholder.txt": {
-    "s": "aqrSDs8WeqbRc20LaivvjQ==",
-    "i": "M2QsgwGNq+tstnyY"
+  "FBOS/home/root/.local/bin/placeholder.txt": {
+    "s": "vrn/iR0OXrJ+4UALZkXSeg==",
+    "i": "WFe3wJEQ6R6LZgfn"
   },
   "FBOS/public/FBOS/_manifest.json": {
-    "s": "+8bvVM9g48nPnECQe2sFcA==",
-    "i": "jDB/gAT87n8b4Mgp"
-  },
-  "apple-touch-icon-180x180.png": {
-    "s": "0PKS8XgDTAoycKuaRz5A7w==",
-    "i": "Jd/UTS5Lpt75iys7"
-  },
-  "assets/favicon-lnfJb8W_.jpg": {
-    "s": "9SbekgeM5zPepgRmQjOr2w==",
-    "i": "Pa6cOW49qExUrMzM"
+    "s": "CQqwdaopS5U3yqNVIAJytQ==",
+    "i": "KjzGfKC7awJEkuyU"
   },
   "assets/index-C8Abg9Tg.css": {
-    "s": "3lBlOt4+CfgXBo4x9tDwNw==",
-    "i": "8xzeltt/wrX6hMMN"
+    "s": "xOLLuY21pD/O6z8HLu6V6g==",
+    "i": "Y6JZRR754jDMVTSU"
   },
-  "assets/index-D1ZSaeOK.js": {
-    "s": "2958egVob0SVu764E/NUVg==",
-    "i": "Ee12y9ilvkgk+GI1"
+  "assets/index-LQqeboIw.js": {
+    "s": "Kx9si4W8JE6RmuNhQSgu2A==",
+    "i": "4uMZvQWkvEReQfhM"
   },
   "assets/workbox-window.prod.es5-BBnX5xw4.js": {
-    "s": "0TONVZ6zO6WeOtWxiIy0eA==",
-    "i": "HDlcanULZHp5C5BC"
+    "s": "ASO8xKmJi+EWx68OXC2C2w==",
+    "i": "0ZvdgBIrVTcIX71u"
   },
   "core.html": {
-    "s": "2gU7G3ktcwJmjiWOVaA+cQ==",
-    "i": "zYV2qd1fu3BC1Mwb"
-  },
-  "favicon.ico": {
-    "s": "yvo+QtMlK2JzO6XNQwpyaA==",
-    "i": "qYNF0MZG4XdO2bQB"
+    "s": "foIs+EPtkTq2AoSS8mRytg==",
+    "i": "9en2FAI4I3lNFqJe"
   },
   "favicon.jpg": {
-    "s": "DEoQcY4XySCS1V2uaaPg+g==",
-    "i": "4CqpJe7t0ob3XQv4"
+    "s": "vPZPYIICvPXeGNIxvjQQcg==",
+    "i": "5VTITzPaFOzlrRx7"
   },
   "logo.jpg": {
-    "s": "v9dt1B+k66ezb3GxG3sM7w==",
-    "i": "M5iOJTXDvyFMs6sK"
+    "s": "nlBxn9xUKX398uR87ZwfMA==",
+    "i": "3MB8fqY8vtO6Objj"
   },
   "manifest.webmanifest": {
-    "s": "vPhXuDoc233mOrgSERZ0YA==",
-    "i": "SlqAEhXKKk6Xopye"
-  },
-  "maskable-icon-512x512.png": {
-    "s": "grtbj2zGgSwt7mgP5sTDzw==",
-    "i": "cu++Uf2MVmE+h3RY"
-  },
-  "pwa-192x192.png": {
-    "s": "MuQp9ALygic0Ra3caviIaw==",
-    "i": "ildQ7D2nyegCZmsE"
-  },
-  "pwa-512x512.png": {
-    "s": "0BFECxu4J+DbSfjtZ6c1wA==",
-    "i": "G0eQquguAuYwBtmQ"
-  },
-  "pwa-64x64.png": {
-    "s": "PmEWt5TrJOwFhx9S06xHng==",
-    "i": "QT+hy6xHFN+GLfRR"
+    "s": "lJNCtNsOB5wJI2O0s9fuXQ==",
+    "i": "OcsnGlI10wQOKY7D"
   }
 }
