@@ -1,82 +1,82 @@
 {
   "FBOS/OS/BIOS.lua": {
-    "s": "kIgNIl7krdnrDfYWxS5CLQ==",
-    "i": "DfPTP/dwgYBdHdWc"
+    "s": "EYW5cQgQV1uckCLOThQM6w==",
+    "i": "SIHH4kE2Dt6KE8zN"
   },
   "FBOS/OS/FB_BOOT.lua": {
-    "s": "teLDk11k/hZuXU4vOTMcgw==",
-    "i": "rzdVhtcy0w1aE4K1"
+    "s": "zrY2MrfHM6OMqO8bygIKqA==",
+    "i": "94rDgPe5LAYbtAyk"
   },
   "FBOS/OS/bin/Proxy.lua": {
-    "s": "VCIxQz/JMKRKBC227ylH2Q==",
-    "i": "AZfl8CfAj1wVPlnw"
+    "s": "9QAGdM+ch5yp8fKk+DJbcQ==",
+    "i": "AC1NgQaLZOimPiG9"
   },
   "FBOS/OS/bin/nano.lua": {
-    "s": "boLGyr8C0KR4alpjBr/04A==",
-    "i": "NK6Bxx4COc4OVUhB"
+    "s": "Ww2OnddFjabsk7vwQr7Z8Q==",
+    "i": "M6p4E+3fkfEjyJk+"
   },
   "FBOS/OS/bin/uldl.lua": {
-    "s": "fF4vfy27LbB6Lh8ZBmjACg==",
-    "i": "DPIdAOzwy7oqhegn"
+    "s": "96AAk7zIuH0QteR5iIpd1w==",
+    "i": "KtDj0DybTwwK0aXC"
   },
   "FBOS/OS/bin/unzip.lua": {
-    "s": "E93qoSz2a45I228KsRVbPw==",
-    "i": "+5BQSCBToUQWf/vL"
+    "s": "p4pQ1td/4/mQjTdz2+o8og==",
+    "i": "LOUpDJGtjHMz3SCR"
   },
   "FBOS/OS/bin/wget.lua": {
-    "s": "HnLqwxFAAiUD12dXUUus4w==",
-    "i": "sSffASvZmgpl1DZm"
+    "s": "20GEhyNRWDrzsqC/xe+Sdw==",
+    "i": "6mmhWANoK0g+w5Gl"
   },
   "FBOS/OS/bin/zip.lua": {
-    "s": "yQ8+KMD7Jhwl3IHvJG659g==",
-    "i": "xdbQZQH3KwEBSD9Z"
+    "s": "TsruFPLlrXaKqEVSqOUiGw==",
+    "i": "sPhyr07znzXScp5Z"
   },
   "FBOS/OS/class.lua": {
-    "s": "Sk36mmS0hXMv7DKYX2QvrA==",
-    "i": "diky3XCZ9sksFY3R"
+    "s": "qL2nTB/swTQEj6OMcSx5zg==",
+    "i": "DexxqrM0nOE6WjvA"
   },
   "FBOS/OS/lfsh.lua": {
-    "s": "RvwknUtH7XIoZl6OM0mGCQ==",
-    "i": "gPoy85PgtVoMay53"
+    "s": "q6aN4rB5w4fXf8GPfGabQg==",
+    "i": "RecBDGMOtLoCm1jo"
   },
   "FBOS/_manifest.json": {
-    "s": "vVf+o6hlIizxLCkG+usWUA==",
-    "i": "JI6DHcBuJDu3y4NP"
+    "s": "of8fXrOC6f39rloh6g4B2Q==",
+    "i": "oFP8+4vcGIJlWg1l"
   },
   "FBOS/home/root/.local/bin/placeholder.txt": {
-    "s": "vrn/iR0OXrJ+4UALZkXSeg==",
-    "i": "WFe3wJEQ6R6LZgfn"
+    "s": "zSKTaee6ksr3b8/URiGQpA==",
+    "i": "Ejnonftvah2J5Tjx"
   },
   "FBOS/public/FBOS/_manifest.json": {
-    "s": "CQqwdaopS5U3yqNVIAJytQ==",
-    "i": "KjzGfKC7awJEkuyU"
+    "s": "nfEvnjsdOrwAyHkNsvaAZQ==",
+    "i": "eISA319SjR2m1p5k"
   },
   "assets/index-C8Abg9Tg.css": {
-    "s": "xOLLuY21pD/O6z8HLu6V6g==",
-    "i": "Y6JZRR754jDMVTSU"
+    "s": "PrRlXRpyh0OjR8DfNrhEZA==",
+    "i": "2CPMZFSz9cdnBblt"
   },
   "assets/index-LQqeboIw.js": {
-    "s": "Kx9si4W8JE6RmuNhQSgu2A==",
-    "i": "4uMZvQWkvEReQfhM"
+    "s": "Q6FFrCrtaD87oCKpBGGO9A==",
+    "i": "tO09c3P5rIRbRh6g"
   },
   "assets/workbox-window.prod.es5-BBnX5xw4.js": {
-    "s": "ASO8xKmJi+EWx68OXC2C2w==",
-    "i": "0ZvdgBIrVTcIX71u"
+    "s": "0XGKRibeAZ9Wjcx//Cqx6w==",
+    "i": "2r96dSppG6/cTozT"
   },
   "core.html": {
-    "s": "foIs+EPtkTq2AoSS8mRytg==",
-    "i": "9en2FAI4I3lNFqJe"
+    "s": "wA31urh6jer+7FE03jhN7w==",
+    "i": "aHv20wyrN7uy587/"
   },
   "favicon.jpg": {
-    "s": "vPZPYIICvPXeGNIxvjQQcg==",
-    "i": "5VTITzPaFOzlrRx7"
+    "s": "VoR04kDo8N/4vv03mr7tkA==",
+    "i": "k1N/zIGHq000cMjH"
   },
   "logo.jpg": {
-    "s": "nlBxn9xUKX398uR87ZwfMA==",
-    "i": "3MB8fqY8vtO6Objj"
+    "s": "qZ2TB+FtzNCPTcaUQPEkcg==",
+    "i": "X9nJKemqvygDmfrl"
   },
   "manifest.webmanifest": {
-    "s": "lJNCtNsOB5wJI2O0s9fuXQ==",
-    "i": "OcsnGlI10wQOKY7D"
+    "s": "chf+DjRCuPE7TXUyNGgESw==",
+    "i": "oN5bE0BCBk/G/YaP"
   }
 }
